@@ -10,7 +10,7 @@ server {
         gzip_buffers    8 256k;
         uwsgi_buffers   8 256k;
 
-        alias /apps/person_page/willschlitzer_com/static;
+        alias /apps/personal-page/willschlitzer_com/static;
         expires 365d;
     }
     location / {
