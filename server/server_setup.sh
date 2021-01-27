@@ -69,7 +69,7 @@ apt install nginx
 # CAREFUL HERE. If you are using default, maybe skip this
 rm /etc/nginx/sites-enabled/default
 
-cp /apps/app_repo/app/ch15_deploy/final/server/pypi.nginx /etc/nginx/sites-enabled/pypi.nginx
+cp /apps/personal-page/server/personal.nginx /etc/nginx/sites-enabled/personal.nginx
 update-rc.d nginx enable
 service nginx restart
 
@@ -78,5 +78,5 @@ service nginx restart
 # https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04
 
 add-apt-repository ppa:certbot/certbot
-apt install python-certbot-nginx
-certbot --nginx -d fakepypi.talkpython.com
+apt install python3-certbot-nginx
+certbot --nginx -d willschlitzer.com
