@@ -1,1 +1,1 @@
-web: gunicorn willschlitzer_com/app.py:app
+web: gunicorn app:app
