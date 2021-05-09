@@ -1,1 +1,1 @@
-web: gunicorn app:willschlitzer_com/app
+web: gunicorn app:app
