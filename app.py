@@ -2,12 +2,15 @@ import flask
 
 app = flask.Flask(__name__)
 
+
 def main():
     app.run(debug=True)
 
+
 @app.route("/", methods=["GET"])
 def home():
-    return "<h1>Will Schlitzer's Page</h1><p>This page is being built to learn Flask.</p>"
+    return flask.render_template("home/home.html")
+
 
 @app.route("/about", methods=["GET"])
 def about():
