@@ -14,7 +14,7 @@ def home():
 
 @app.route("/about", methods=["GET"])
 def about():
-    return "<h1>About this site</h1><p>I'm making this website in an effort to better learn Flask and Web Development.</p>"
+    return flask.render_template("home/about.html")
 
 
 if __name__ == "__main__":
