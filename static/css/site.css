@@ -1,13 +1,18 @@
+body {
+    background-color: #fffada;
+}
+
 .title {
     font-weight: bold;
 }
 
 .main_content {
     padding: 20px;
+
 }
 
 nav {
-    background-color: #000;
+    background-color: #3c5889;
     padding: 10px;
     font-size: 20px;
     color: white;
