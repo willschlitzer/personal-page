@@ -1,5 +1,6 @@
 body {
     background-color: #fffada;
+    font-family: sans-serif;
 }
 
 .title {
@@ -21,6 +22,13 @@ nav {
 nav > a {
     color: white;
     margin-right: 10px;
+}
+
+.navbar {
+    background-color: #3c5889;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
 }
 
 .schlitz {
