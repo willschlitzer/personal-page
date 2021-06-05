@@ -22,3 +22,9 @@ nav > a {
     color: white;
     margin-right: 10px;
 }
+
+.schlitz {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
